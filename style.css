@@ -1,0 +1,81 @@
+body {
+ background-image: url("./bg.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-color: #EAB543;
+}
+
+/* title */
+
+p {
+ color: #F8EFBA;
+ font-size: 32px;
+ margin: auto 0;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+span {
+ color: #F8EFBA;
+ font-size: 14px;
+}
+
+.title {
+ margin: 2% 2% 7%;
+}
+
+/* form section */
+
+input[type="date"] {
+ color: #F8EFBA;
+ border: none;
+ background: none !important;
+}
+
+input[type="date"]:focus {
+ outline: none !important;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+ filter: invert(1);
+ border: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator:hover {
+ opacity: 1
+}
+
+.date-underline {
+ width: 25%;
+ height: 1px;
+ border: 0;
+ margin-top: 3px;
+ border-top: 0.5px solid #fff;
+}
+
+.form-section {
+ text-align: center;
+ color: #F8EFBA;
+}
+
+#submit-btn {
+ color: #F8EFBA;
+ text-align: center;
+ background-color: transparent;
+ border-radius: 16px;
+ border: 1px solid;
+ width: 15%;
+ height: 30px;
+ margin-top: 15px;
+ cursor: pointer;
+}
+
+#submit-btn:focus {
+ outline: none;
+}
+
+/* result  */
+
+#resultContainer {
+ margin: 2% auto;
+ color: rgb(241, 238, 238);
+}
